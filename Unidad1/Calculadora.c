@@ -7,11 +7,11 @@ printf("1.- Suma\n");
 printf("2.- Resta\n");
 printf("3.- Multiplicacion\n");
 printf("4.- Division\n");
-scanf("%d",&opcion);
+ scanf("%d",&opcion);
 printf("Introduce el primer numero\n");
-scanf("%f",&num1);  
+ scanf("%f",&num1);  
 printf("Introduce el segundo numero\n");
-scanf("%f",&num2);
+ scanf("%f",&num2);
 switch(opcion){
 case 1:
     resultado = num1 + num2;
